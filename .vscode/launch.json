@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Execute selected file.",
             "program": "${file}",
-            "octave": "octave-cli",
+            "octave": "matlab -nosplash -nodesktop",
             "sourceFolder": "${workspaceFolder}"
         }
     ]
