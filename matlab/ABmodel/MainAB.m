@@ -74,7 +74,7 @@ M2 = ProjQP(nv,Comp,Inc,Hdim);
  
  
  % N = 133
- % SSE
+ % SSE 
  
  parm0 = [ -14.5725  -16.7430    4.5975    4.4946    2.7558 ]; % R2 = .9046, SSE= .0086
  % Chi 
