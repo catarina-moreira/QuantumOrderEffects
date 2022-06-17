@@ -20,6 +20,7 @@ for j=1:na
     ca{j} = (1:Sdima) + ((j-1)*Sdima);
 end
 
+% creates that strange vector with sub vectors repr
 cb = cell(1,nb);
 for j=1:nb
     cb{j} = (1:Sdimb) + ((j-1)*Sdimb);

@@ -10,19 +10,20 @@ clear
 clc
 
 %  enter your # of values for each variable
-ns=9;  % input # values of self ratings
-no=9;  % input # values of other ratings
+ns= 9;  % input # values of self ratings
+no= 9;  % input # values of other ratings
 nc=1;  % input #   fix to one 
 nd=1;  % input #   fix to one 
 nv = [ns no nc nd];
 Jdim = prod(nv);
-Hdim = 99;
+Hdim = 99; %99;
 
 % JointCoact contains two joint freq tables, 
 % one for AB order, other for BA order
 % this example defines FA for the AB table, FB for the BA table
  
-load JointCoacT   
+load("JointCoacT.mat")  
+
 % this file contains a cell Tbls with two tables
 % FS % self  Tbls{1}
 % FO % other Tbls{2}

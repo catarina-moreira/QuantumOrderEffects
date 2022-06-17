@@ -6,10 +6,10 @@ Px = [];   % Predicted
 nt = size(Vars,2);
 
 % parameters
-A1 = parm(1);   % question A potential
-B1 = parm(2);   % question B potential
-A2 = exp(parm(3));     % diffusion A
-B2 = exp(parm(4));     % diffusion B
+A1 = parm(1);   % question A potential % beta 1
+B1 = parm(2);   % question B potential % beta
+A2 = exp(parm(3));     % diffusion A % alpha
+B2 = exp(parm(4));     % diffusion B % alpha
 mix = 1/(1+exp(-parm(5)));
 
 % response scale model
